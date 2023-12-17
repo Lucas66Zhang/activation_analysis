@@ -1,0 +1,24 @@
+2023-12-15 20:10:24,347 - root - INFO - Random seed: 5
+2023-12-15 20:10:24,347 - root - INFO - Loading data...
+2023-12-15 20:10:24,369 - root - INFO - shape of x_maxpool2: torch.Size([78800, 256])
+2023-12-15 20:10:24,369 - root - INFO - shape of x_fc1: torch.Size([78800, 120])
+2023-12-15 20:10:24,369 - root - INFO - shape of x_fc2: torch.Size([78800, 84])
+2023-12-15 20:10:24,369 - root - INFO - shape of x_fc3: torch.Size([78800, 10])
+2023-12-15 20:10:24,369 - root - INFO - data loading finished.
+2023-12-15 20:10:24,369 - root - INFO - Spliting dataset...
+2023-12-15 20:10:24,372 - root - INFO - train dataset size: 50432
+2023-12-15 20:10:24,372 - root - INFO - val dataset size: 12608
+2023-12-15 20:10:24,372 - root - INFO - test dataset size: 15760
+2023-12-15 20:10:24,372 - root - INFO - dataset spliting finished.
+2023-12-15 20:10:24,372 - root - INFO - Initializing model, optimizer and loss function...
+2023-12-15 20:10:24,518 - root - INFO - model, optimizer and loss function initialization finished.
+2023-12-15 20:10:24,518 - root - INFO - Start training...
+  0%|                                                                        | 0/14 [00:00<?, ?it/s]Epoch: 1 | Train Loss: 0.0375 | Val Loss: 0.0400:   0%|                      | 0/14 [00:14<?, ?it/s]Epoch: 1 | Train Loss: 0.0375 | Val Loss: 0.0400:   7%|█             | 1/14 [00:14<03:04, 14.21s/it]Epoch: 2 | Train Loss: 0.0362 | Val Loss: 0.0382:   7%|█             | 1/14 [00:27<03:04, 14.21s/it]Epoch: 2 | Train Loss: 0.0362 | Val Loss: 0.0382:  14%|██            | 2/14 [00:27<02:44, 13.70s/it]Epoch: 3 | Train Loss: 0.0286 | Val Loss: 0.0312:  14%|██            | 2/14 [00:40<02:44, 13.70s/it]Epoch: 3 | Train Loss: 0.0286 | Val Loss: 0.0312:  21%|███           | 3/14 [00:40<02:28, 13.53s/it]Epoch: 4 | Train Loss: 0.0297 | Val Loss: 0.0327:  21%|███           | 3/14 [00:54<02:28, 13.53s/it]Epoch: 4 | Train Loss: 0.0297 | Val Loss: 0.0327:  29%|████          | 4/14 [00:54<02:14, 13.47s/it]Epoch: 5 | Train Loss: 0.0267 | Val Loss: 0.0301:  29%|████          | 4/14 [01:07<02:14, 13.47s/it]Epoch: 5 | Train Loss: 0.0267 | Val Loss: 0.0301:  36%|█████         | 5/14 [01:07<02:00, 13.44s/it]Epoch: 6 | Train Loss: 0.0244 | Val Loss: 0.0286:  36%|█████         | 5/14 [01:21<02:00, 13.44s/it]Epoch: 6 | Train Loss: 0.0244 | Val Loss: 0.0286:  43%|██████        | 6/14 [01:21<01:47, 13.47s/it]Epoch: 7 | Train Loss: 0.0227 | Val Loss: 0.0271:  43%|██████        | 6/14 [01:34<01:47, 13.47s/it]Epoch: 7 | Train Loss: 0.0227 | Val Loss: 0.0271:  50%|███████       | 7/14 [01:34<01:34, 13.44s/it]Epoch: 8 | Train Loss: 0.0200 | Val Loss: 0.0256:  50%|███████       | 7/14 [01:47<01:34, 13.44s/it]Epoch: 8 | Train Loss: 0.0200 | Val Loss: 0.0256:  57%|████████      | 8/14 [01:47<01:20, 13.42s/it]Epoch: 9 | Train Loss: 0.0176 | Val Loss: 0.0243:  57%|████████      | 8/14 [02:01<01:20, 13.42s/it]Epoch: 9 | Train Loss: 0.0176 | Val Loss: 0.0243:  64%|█████████     | 9/14 [02:01<01:07, 13.43s/it]Epoch: 10 | Train Loss: 0.0194 | Val Loss: 0.0261:  64%|████████▎    | 9/14 [02:14<01:07, 13.43s/it]Epoch: 10 | Train Loss: 0.0194 | Val Loss: 0.0261:  71%|████████▌   | 10/14 [02:14<00:53, 13.41s/it]Epoch: 11 | Train Loss: 0.0158 | Val Loss: 0.0229:  71%|████████▌   | 10/14 [02:28<00:53, 13.41s/it]Epoch: 11 | Train Loss: 0.0158 | Val Loss: 0.0229:  79%|█████████▍  | 11/14 [02:28<00:40, 13.40s/it]Epoch: 12 | Train Loss: 0.0158 | Val Loss: 0.0237:  79%|█████████▍  | 11/14 [02:41<00:40, 13.40s/it]Epoch: 12 | Train Loss: 0.0158 | Val Loss: 0.0237:  86%|██████████▎ | 12/14 [02:41<00:26, 13.44s/it]Epoch: 13 | Train Loss: 0.0149 | Val Loss: 0.0230:  86%|██████████▎ | 12/14 [02:55<00:26, 13.44s/it]Epoch: 13 | Train Loss: 0.0149 | Val Loss: 0.0230:  93%|███████████▏| 13/14 [02:55<00:13, 13.42s/it]Epoch: 14 | Train Loss: 0.0151 | Val Loss: 0.0242:  93%|███████████▏| 13/14 [03:08<00:13, 13.42s/it]Epoch: 14 | Train Loss: 0.0151 | Val Loss: 0.0242: 100%|████████████| 14/14 [03:08<00:00, 13.41s/it]Epoch: 14 | Train Loss: 0.0151 | Val Loss: 0.0242: 100%|████████████| 14/14 [03:08<00:00, 13.46s/it]
+2023-12-15 20:13:32,970 - root - INFO - Training finished.
+2023-12-15 20:13:32,970 - root - INFO - Testing model...
+2023-12-15 20:13:33,362 - root - INFO - Test loss: 0.02314405352808535, Test r_square: 0.7154302299022675
+2023-12-15 20:13:33,362 - root - INFO - Testing finished.
+2023-12-15 20:13:33,362 - root - INFO - saving model...
+2023-12-15 20:13:33,377 - root - INFO - model saved.
+2023-12-15 20:13:33,377 - root - INFO - saving results
+2023-12-15 20:13:33,379 - root - INFO - results saved.
